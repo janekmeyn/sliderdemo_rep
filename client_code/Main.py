@@ -8,6 +8,8 @@ class Main(MainTemplate):
 
     # Any code you write here will run when the form opens.
     # This is a Git Test
+
+  self.header_label.text = 'This is my header'
   
   def slider_1_change(self, **event_args):
     self.label_4.text = self.slider_1.level
